@@ -22,10 +22,9 @@
     
 
     ZXUIView *view=[ZXUIView new];
-    view.pictures= @[[UIImage imageNamed:@"2010e3a0c7f88c3f5f5803bf66addd93"],
-                    [UIImage imageNamed:@"37e4761e6ecf56a2d78685df7157f097"],
-                    [UIImage imageNamed:@"5ee372ff039073317a49af5442748071"],
-                    [UIImage imageNamed:@"9b437cdfb3e3b542b5917ce2e9a74890"]];
+    view.pictures= @[[UIImage imageNamed:@"20130820124935_kQQLU.thumb.600_0"],[UIImage imageNamed:@"20130820124941_TukyW.thumb.600_0"],[UIImage imageNamed:@"20120512224320_XAHuP.thumb.700_0"],[UIImage imageNamed:@"20150105184318_w8HPK"]];
+  //  [UIImage imageNamed:@"1"];
+    
     self.view=view;
     
 }

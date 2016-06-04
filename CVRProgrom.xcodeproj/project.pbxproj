@@ -13,17 +13,12 @@
 		0400D09A1D01BD6400288098 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0400D0981D01BD6400288098 /* Main.storyboard */; };
 		0400D09C1D01BD6400288098 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0400D09B1D01BD6400288098 /* Assets.xcassets */; };
 		0400D09F1D01BD6400288098 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0400D09D1D01BD6400288098 /* LaunchScreen.storyboard */; };
-		0400D0A71D01BF0000288098 /* 5ee372ff039073317a49af5442748071.png in Resources */ = {isa = PBXBuildFile; fileRef = 0400D0A61D01BF0000288098 /* 5ee372ff039073317a49af5442748071.png */; };
 		0400D0B01D01C89700288098 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0400D0AF1D01C89700288098 /* main.m */; };
 		0400D0B31D01C89700288098 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0400D0B21D01C89700288098 /* AppDelegate.m */; };
 		0400D0B61D01C89700288098 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0400D0B51D01C89700288098 /* ViewController.m */; };
 		0400D0B91D01C89700288098 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0400D0B71D01C89700288098 /* Main.storyboard */; };
 		0400D0BB1D01C89700288098 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0400D0BA1D01C89700288098 /* Assets.xcassets */; };
 		0400D0BE1D01C89700288098 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0400D0BC1D01C89700288098 /* LaunchScreen.storyboard */; };
-		0400D0C71D01CCC900288098 /* 5ee372ff039073317a49af5442748071.png in Resources */ = {isa = PBXBuildFile; fileRef = 0400D0C31D01CCC900288098 /* 5ee372ff039073317a49af5442748071.png */; };
-		0400D0C81D01CCC900288098 /* 9b437cdfb3e3b542b5917ce2e9a74890.png in Resources */ = {isa = PBXBuildFile; fileRef = 0400D0C41D01CCC900288098 /* 9b437cdfb3e3b542b5917ce2e9a74890.png */; };
-		0400D0C91D01CCCA00288098 /* 37e4761e6ecf56a2d78685df7157f097.png in Resources */ = {isa = PBXBuildFile; fileRef = 0400D0C51D01CCC900288098 /* 37e4761e6ecf56a2d78685df7157f097.png */; };
-		0400D0CA1D01CCCA00288098 /* 2010e3a0c7f88c3f5f5803bf66addd93.png in Resources */ = {isa = PBXBuildFile; fileRef = 0400D0C61D01CCC900288098 /* 2010e3a0c7f88c3f5f5803bf66addd93.png */; };
 		0400D0CD1D01DDAC00288098 /* ZXUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0400D0CC1D01DDAC00288098 /* ZXUIView.m */; };
 		0400D0D01D02639F00288098 /* ZXScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0400D0CF1D02639F00288098 /* ZXScrollView.m */; };
 /* End PBXBuildFile section */
@@ -39,7 +34,6 @@
 		0400D09B1D01BD6400288098 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0400D09E1D01BD6400288098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0400D0A01D01BD6400288098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0400D0A61D01BF0000288098 /* 5ee372ff039073317a49af5442748071.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5ee372ff039073317a49af5442748071.png; sourceTree = "<group>"; };
 		0400D0AC1D01C89700288098 /* zuoYouQieHuan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zuoYouQieHuan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0400D0AF1D01C89700288098 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0400D0B11D01C89700288098 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -50,10 +44,6 @@
 		0400D0BA1D01C89700288098 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0400D0BD1D01C89700288098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0400D0BF1D01C89700288098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0400D0C31D01CCC900288098 /* 5ee372ff039073317a49af5442748071.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5ee372ff039073317a49af5442748071.png; sourceTree = "<group>"; };
-		0400D0C41D01CCC900288098 /* 9b437cdfb3e3b542b5917ce2e9a74890.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9b437cdfb3e3b542b5917ce2e9a74890.png; sourceTree = "<group>"; };
-		0400D0C51D01CCC900288098 /* 37e4761e6ecf56a2d78685df7157f097.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 37e4761e6ecf56a2d78685df7157f097.png; sourceTree = "<group>"; };
-		0400D0C61D01CCC900288098 /* 2010e3a0c7f88c3f5f5803bf66addd93.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2010e3a0c7f88c3f5f5803bf66addd93.png; sourceTree = "<group>"; };
 		0400D0CB1D01DDAC00288098 /* ZXUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXUIView.h; sourceTree = "<group>"; };
 		0400D0CC1D01DDAC00288098 /* ZXUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXUIView.m; sourceTree = "<group>"; };
 		0400D0CE1D02639F00288098 /* ZXScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXScrollView.h; sourceTree = "<group>"; };
@@ -109,7 +99,6 @@
 				0400D09B1D01BD6400288098 /* Assets.xcassets */,
 				0400D09D1D01BD6400288098 /* LaunchScreen.storyboard */,
 				0400D0A01D01BD6400288098 /* Info.plist */,
-				0400D0A61D01BF0000288098 /* 5ee372ff039073317a49af5442748071.png */,
 				0400D08F1D01BD6400288098 /* Supporting Files */,
 			);
 			path = HeaderPictureZoomer;
@@ -135,11 +124,7 @@
 				0400D0B71D01C89700288098 /* Main.storyboard */,
 				0400D0BA1D01C89700288098 /* Assets.xcassets */,
 				0400D0BC1D01C89700288098 /* LaunchScreen.storyboard */,
-				0400D0C61D01CCC900288098 /* 2010e3a0c7f88c3f5f5803bf66addd93.png */,
 				0400D0BF1D01C89700288098 /* Info.plist */,
-				0400D0C31D01CCC900288098 /* 5ee372ff039073317a49af5442748071.png */,
-				0400D0C41D01CCC900288098 /* 9b437cdfb3e3b542b5917ce2e9a74890.png */,
-				0400D0C51D01CCC900288098 /* 37e4761e6ecf56a2d78685df7157f097.png */,
 				0400D0AE1D01C89700288098 /* Supporting Files */,
 			);
 			path = zuoYouQieHuan;
@@ -235,7 +220,6 @@
 			files = (
 				0400D09F1D01BD6400288098 /* LaunchScreen.storyboard in Resources */,
 				0400D09C1D01BD6400288098 /* Assets.xcassets in Resources */,
-				0400D0A71D01BF0000288098 /* 5ee372ff039073317a49af5442748071.png in Resources */,
 				0400D09A1D01BD6400288098 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,12 +229,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0400D0BE1D01C89700288098 /* LaunchScreen.storyboard in Resources */,
-				0400D0CA1D01CCCA00288098 /* 2010e3a0c7f88c3f5f5803bf66addd93.png in Resources */,
 				0400D0BB1D01C89700288098 /* Assets.xcassets in Resources */,
-				0400D0C71D01CCC900288098 /* 5ee372ff039073317a49af5442748071.png in Resources */,
-				0400D0C81D01CCC900288098 /* 9b437cdfb3e3b542b5917ce2e9a74890.png in Resources */,
 				0400D0B91D01C89700288098 /* Main.storyboard in Resources */,
-				0400D0C91D01CCCA00288098 /* 37e4761e6ecf56a2d78685df7157f097.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +440,7 @@
 				0400D0A51D01BD6400288098 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0400D0C01D01C89700288098 /* Build configuration list for PBXNativeTarget "zuoYouQieHuan" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +449,7 @@
 				0400D0C21D01C89700288098 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
