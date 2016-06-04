@@ -104,7 +104,6 @@
         //将计算后的frame给图片框
        // CGRect rect=CGRectMake(x, y, w, h);
         self.imageView.frame=CGRectMake(x, y, w, h);
-        //  NSLog(@"%@",NSStringFromCGRect(rect));
         
         //判断当方向向上的时候让遮罩变暗
     }else if(scrollView.contentOffset.y<100&&scrollView.contentOffset.y>10){
