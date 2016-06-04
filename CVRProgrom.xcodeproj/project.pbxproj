@@ -21,6 +21,13 @@
 		0400D0BE1D01C89700288098 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0400D0BC1D01C89700288098 /* LaunchScreen.storyboard */; };
 		0400D0CD1D01DDAC00288098 /* ZXUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0400D0CC1D01DDAC00288098 /* ZXUIView.m */; };
 		0400D0D01D02639F00288098 /* ZXScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0400D0CF1D02639F00288098 /* ZXScrollView.m */; };
+		0400D0EB1D02FCFA00288098 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0400D0EA1D02FCFA00288098 /* main.m */; };
+		0400D0EE1D02FCFA00288098 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0400D0ED1D02FCFA00288098 /* AppDelegate.m */; };
+		0400D0F11D02FCFA00288098 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0400D0F01D02FCFA00288098 /* ViewController.m */; };
+		0400D0F41D02FCFA00288098 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0400D0F21D02FCFA00288098 /* Main.storyboard */; };
+		0400D0F61D02FCFA00288098 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0400D0F51D02FCFA00288098 /* Assets.xcassets */; };
+		0400D0F91D02FCFA00288098 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0400D0F71D02FCFA00288098 /* LaunchScreen.storyboard */; };
+		0400D1001D03073300288098 /* FatherChildScrollerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0400D0FF1D03073300288098 /* FatherChildScrollerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +55,18 @@
 		0400D0CC1D01DDAC00288098 /* ZXUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXUIView.m; sourceTree = "<group>"; };
 		0400D0CE1D02639F00288098 /* ZXScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXScrollView.h; sourceTree = "<group>"; };
 		0400D0CF1D02639F00288098 /* ZXScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXScrollView.m; sourceTree = "<group>"; };
+		0400D0E71D02FCFA00288098 /* ChangeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0400D0EA1D02FCFA00288098 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0400D0EC1D02FCFA00288098 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0400D0ED1D02FCFA00288098 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0400D0EF1D02FCFA00288098 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0400D0F01D02FCFA00288098 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0400D0F31D02FCFA00288098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0400D0F51D02FCFA00288098 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0400D0F81D02FCFA00288098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0400D0FA1D02FCFA00288098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0400D0FE1D03073300288098 /* FatherChildScrollerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FatherChildScrollerView.h; sourceTree = "<group>"; };
+		0400D0FF1D03073300288098 /* FatherChildScrollerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FatherChildScrollerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +84,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0400D0E41D02FCFA00288098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -73,6 +99,7 @@
 			children = (
 				0400D08E1D01BD6400288098 /* HeaderPictureZoomer */,
 				0400D0AD1D01C89700288098 /* zuoYouQieHuan */,
+				0400D0E81D02FCFA00288098 /* ChangeView */,
 				0400D08D1D01BD6400288098 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -82,6 +109,7 @@
 			children = (
 				0400D08C1D01BD6400288098 /* CVRProgrom.app */,
 				0400D0AC1D01C89700288098 /* zuoYouQieHuan.app */,
+				0400D0E71D02FCFA00288098 /* ChangeView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -138,6 +166,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0400D0E81D02FCFA00288098 /* ChangeView */ = {
+			isa = PBXGroup;
+			children = (
+				0400D0FE1D03073300288098 /* FatherChildScrollerView.h */,
+				0400D0FF1D03073300288098 /* FatherChildScrollerView.m */,
+				0400D0EC1D02FCFA00288098 /* AppDelegate.h */,
+				0400D0ED1D02FCFA00288098 /* AppDelegate.m */,
+				0400D0EF1D02FCFA00288098 /* ViewController.h */,
+				0400D0F01D02FCFA00288098 /* ViewController.m */,
+				0400D0F21D02FCFA00288098 /* Main.storyboard */,
+				0400D0F51D02FCFA00288098 /* Assets.xcassets */,
+				0400D0F71D02FCFA00288098 /* LaunchScreen.storyboard */,
+				0400D0FA1D02FCFA00288098 /* Info.plist */,
+				0400D0E91D02FCFA00288098 /* Supporting Files */,
+			);
+			path = ChangeView;
+			sourceTree = "<group>";
+		};
+		0400D0E91D02FCFA00288098 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0400D0EA1D02FCFA00288098 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -175,6 +229,23 @@
 			productReference = 0400D0AC1D01C89700288098 /* zuoYouQieHuan.app */;
 			productType = "com.apple.product-type.application";
 		};
+		0400D0E61D02FCFA00288098 /* ChangeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0400D0FD1D02FCFA00288098 /* Build configuration list for PBXNativeTarget "ChangeView" */;
+			buildPhases = (
+				0400D0E31D02FCFA00288098 /* Sources */,
+				0400D0E41D02FCFA00288098 /* Frameworks */,
+				0400D0E51D02FCFA00288098 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChangeView;
+			productName = ChangeView;
+			productReference = 0400D0E71D02FCFA00288098 /* ChangeView.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -189,6 +260,10 @@
 						DevelopmentTeam = KD69AG4FSM;
 					};
 					0400D0AB1D01C89700288098 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = KD69AG4FSM;
+					};
+					0400D0E61D02FCFA00288098 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = KD69AG4FSM;
 					};
@@ -209,6 +284,7 @@
 			targets = (
 				0400D08B1D01BD6400288098 /* CVRProgrom */,
 				0400D0AB1D01C89700288098 /* zuoYouQieHuan */,
+				0400D0E61D02FCFA00288098 /* ChangeView */,
 			);
 		};
 /* End PBXProject section */
@@ -234,6 +310,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0400D0E51D02FCFA00288098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0400D0F91D02FCFA00288098 /* LaunchScreen.storyboard in Resources */,
+				0400D0F61D02FCFA00288098 /* Assets.xcassets in Resources */,
+				0400D0F41D02FCFA00288098 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -256,6 +342,17 @@
 				0400D0B61D01C89700288098 /* ViewController.m in Sources */,
 				0400D0B31D01C89700288098 /* AppDelegate.m in Sources */,
 				0400D0B01D01C89700288098 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0400D0E31D02FCFA00288098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0400D0F11D02FCFA00288098 /* ViewController.m in Sources */,
+				0400D0EE1D02FCFA00288098 /* AppDelegate.m in Sources */,
+				0400D0EB1D02FCFA00288098 /* main.m in Sources */,
+				0400D1001D03073300288098 /* FatherChildScrollerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +387,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				0400D0BD1D01C89700288098 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0400D0F21D02FCFA00288098 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0400D0F31D02FCFA00288098 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0400D0F71D02FCFA00288098 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0400D0F81D02FCFA00288098 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -421,6 +534,28 @@
 			};
 			name = Release;
 		};
+		0400D0FB1D02FCFA00288098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChangeView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zhaoxin.ChangeView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0400D0FC1D02FCFA00288098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChangeView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zhaoxin.ChangeView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -450,6 +585,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		0400D0FD1D02FCFA00288098 /* Build configuration list for PBXNativeTarget "ChangeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0400D0FB1D02FCFA00288098 /* Debug */,
+				0400D0FC1D02FCFA00288098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

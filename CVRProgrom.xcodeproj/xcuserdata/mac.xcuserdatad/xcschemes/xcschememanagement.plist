@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ChangeView.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>HeaderPictureZoomer.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>0400D0AB1D01C89700288098</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0400D0E61D02FCFA00288098</key>
 		<dict>
 			<key>primary</key>
 			<true/>
