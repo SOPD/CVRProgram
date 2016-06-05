@@ -106,8 +106,7 @@
                 }];
                 //下拉一定范围缩回底部视图
             }else if(y<=-60){
-                NSLog(@"zxoule");
-                [UIView animateWithDuration:0.25 animations:^{
+            [UIView animateWithDuration:0.25 animations:^{
                     childVw.frame=CGRectMake(0,
                                              [UIScreen mainScreen].bounds.size.height,
                                              [UIScreen mainScreen].bounds.size.width,
