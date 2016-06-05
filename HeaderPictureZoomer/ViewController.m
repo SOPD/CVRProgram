@@ -21,6 +21,7 @@
     UIView *view=[UIView new];
 
 
+    //创建下半部分视图
     view.frame=CGRectMake(0, 200, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height);
     
     

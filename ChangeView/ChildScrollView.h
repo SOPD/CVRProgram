@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 typedef void(^upView)(CGFloat);
 @interface ChildScrollView : UIScrollView<UIScrollViewDelegate>
+/**
+ *  移动中回调
+ */
 @property (nonatomic,copy)upView beginUp;
 @property (nonatomic,copy)upView endUp;
 @end

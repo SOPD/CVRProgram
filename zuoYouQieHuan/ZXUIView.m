@@ -38,7 +38,8 @@
         //初始化滚动框
         self.ScrollView=[[UIScrollView alloc]init];
         //设置滚动框大小为屏幕一半
-        self.ScrollView.frame=CGRectMake(0, 0, HALF_SCREEN_W, [UIScreen mainScreen].bounds.size.height);
+        self.ScrollView.frame=CGRectMake(0, 0, HALF_SCREEN_W,
+                                         [UIScreen mainScreen].bounds.size.height);
         //添加滚动框
         [self addSubview:self.ScrollView];
         //设置代理
@@ -60,7 +61,7 @@
 }
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
 
-    NSLog(@"123");
+  
 }
 /**
  *   滚动时
@@ -75,7 +76,10 @@
         //判断 当移动在对应图片的范围内(图片所在位置到图片向左半个屏幕)
         if (scrollView.contentOffset.x-imgVw.tag*HALF_SCREEN_W<=HALF_SCREEN_W&&scrollView.contentOffset.x-imgVw.tag*HALF_SCREEN_W>=0) {
             //保持原始X Y H不变 宽度随着滚动位置改变 图片宽度要减去图片向左位移的距离
-imgVw.frame=CGRectMake(imgVw.frame.origin.x, imgVw.frame.origin.y, [UIScreen mainScreen].bounds.size.width-(scrollView.contentOffset.x-imgVw.tag*HALF_SCREEN_W), imgVw.frame.size.height);
+imgVw.frame=CGRectMake(imgVw.frame.origin.x,
+                       imgVw.frame.origin.y,
+                       [UIScreen mainScreen].bounds.size.width-(scrollView.contentOffset.x-imgVw.tag*HALF_SCREEN_W),
+                       imgVw.frame.size.height);
             
         }
     }
@@ -89,7 +93,10 @@ imgVw.frame=CGRectMake(imgVw.frame.origin.x, imgVw.frame.origin.y, [UIScreen mai
     //图片框位置为半个屏幕的index倍
     CGFloat x=HALF_SCREEN_W*index;
     //设置图片宽高
-    imageVw.frame=CGRectMake(x, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height);
+    imageVw.frame=CGRectMake(x,
+                             0,
+                             [UIScreen mainScreen].bounds.size.width,
+                             [UIScreen mainScreen].bounds.size.height);
     //设置图片
     imageVw.image=img;
     

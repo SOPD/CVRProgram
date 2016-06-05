@@ -21,7 +21,9 @@
   
     
 
+    //创建视图
     ZXUIView *view=[ZXUIView new];
+    //添加图片数组
     view.pictures= @[[UIImage imageNamed:@"20130820124935_kQQLU.thumb.600_0"],
                      [UIImage imageNamed:@"20130820124941_TukyW.thumb.600_0"],
                      [UIImage imageNamed:@"20120512224320_XAHuP.thumb.700_0"],
