@@ -28,6 +28,7 @@
 		0400D0F61D02FCFA00288098 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0400D0F51D02FCFA00288098 /* Assets.xcassets */; };
 		0400D0F91D02FCFA00288098 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0400D0F71D02FCFA00288098 /* LaunchScreen.storyboard */; };
 		0400D1001D03073300288098 /* FatherChildScrollerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0400D0FF1D03073300288098 /* FatherChildScrollerView.m */; };
+		04A1047E1D03C31F0096C3AE /* ChildScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1047D1D03C31F0096C3AE /* ChildScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,8 @@
 		0400D0FA1D02FCFA00288098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0400D0FE1D03073300288098 /* FatherChildScrollerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FatherChildScrollerView.h; sourceTree = "<group>"; };
 		0400D0FF1D03073300288098 /* FatherChildScrollerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FatherChildScrollerView.m; sourceTree = "<group>"; };
+		04A1047C1D03C31F0096C3AE /* ChildScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildScrollView.h; sourceTree = "<group>"; };
+		04A1047D1D03C31F0096C3AE /* ChildScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +172,8 @@
 		0400D0E81D02FCFA00288098 /* ChangeView */ = {
 			isa = PBXGroup;
 			children = (
+				04A1047C1D03C31F0096C3AE /* ChildScrollView.h */,
+				04A1047D1D03C31F0096C3AE /* ChildScrollView.m */,
 				0400D0FE1D03073300288098 /* FatherChildScrollerView.h */,
 				0400D0FF1D03073300288098 /* FatherChildScrollerView.m */,
 				0400D0EC1D02FCFA00288098 /* AppDelegate.h */,
@@ -353,6 +358,7 @@
 				0400D0EE1D02FCFA00288098 /* AppDelegate.m in Sources */,
 				0400D0EB1D02FCFA00288098 /* main.m in Sources */,
 				0400D1001D03073300288098 /* FatherChildScrollerView.m in Sources */,
+				04A1047E1D03C31F0096C3AE /* ChildScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -593,6 +599,7 @@
 				0400D0FC1D02FCFA00288098 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

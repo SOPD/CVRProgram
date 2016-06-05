@@ -1,3 +1,4 @@
+
 //
 //  FatherChildScrollerView.h
 //  CVRProgrom
@@ -8,6 +9,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FatherChildScrollerView : UIScrollView
+@interface FatherChildScrollerView : UIScrollView<UIScrollViewDelegate>
 @property(nonatomic,strong)UIScrollView *childScrollerView;
 @end

@@ -7,12 +7,19 @@
 //
 
 #import "FatherChildScrollerView.h"
+#import "ChildScrollView.h"
 
 @implementation FatherChildScrollerView
 - (instancetype)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
     if (self) {
+        
+        
+        UIView *childVw=[UIView new];
+        childVw.frame=CGRectMake(0, [UIScreen mainScreen].bounds.size.height, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height-205);
+        childVw.backgroundColor=[UIColor greenColor];
+        [self addSubview:childVw];
         
         UIView *bigVw=[UIView new];
         bigVw.frame=CGRectMake([UIScreen mainScreen].bounds.size.width, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height);
@@ -22,10 +29,43 @@
         self.contentSize=CGSizeMake([UIScreen mainScreen].bounds.size.width*2, 0);
        self.pagingEnabled=YES;
         
-        UIScrollView *childScro=[[UIScrollView alloc]init];
+        ChildScrollView *childScro=[[ChildScrollView alloc]init];
         childScro.frame=CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 200);
         [self addSubview:childScro];
         self.childScrollerView=childScro;
+        
+        
+        childScro.beginUp=^(CGFloat y){
+ 
+            if (y>=50) {
+                
+                [UIView animateWithDuration:0.25 animations:^{
+                    childVw.frame=CGRectMake(0, 205, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height-205);
+                    
+                }];
+            }else if((y<=-50)){
+                [UIView animateWithDuration:0.25 animations:^{
+                    childVw.frame=CGRectMake(0, [UIScreen mainScreen].bounds.size.height, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height-205);
+                }];
+                
+            }
+        };
+        childScro.endUp=^(CGFloat y){
+
+            
+            if (y>=50) {
+                
+                [UIView animateWithDuration:0.25 animations:^{
+                     childVw.frame=CGRectMake(0, 205, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height-205);
+                    
+                }];
+            }else if((y<=-50)){
+            [UIView animateWithDuration:0.25 animations:^{
+                   childVw.frame=CGRectMake(0, [UIScreen mainScreen].bounds.size.height, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height-205);
+            }];
+          
+            }
+        };
         
         
         for (int i=0; i<4; i++) {
@@ -38,6 +78,13 @@
         }
         childScro.contentSize=CGSizeMake([UIScreen mainScreen].bounds.size.width *4, 0);
         childScro.pagingEnabled=YES;
+        
+        
+        
+        self.delegate=self;
+        
+
+        
     }
     return self;
 }
@@ -51,9 +98,7 @@
 
 
 }
--(void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    NSLog(@"%@",touches);
 
 
-}
+
 @end
