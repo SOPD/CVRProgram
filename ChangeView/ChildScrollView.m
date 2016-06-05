@@ -43,26 +43,26 @@
     
     CGFloat deltaY = self.gestureStartPoint.y - currentPosition.y;
      NSLog(@"%f,%f",deltaX,deltaY);
-    if (deltaY>0) {
+  
         self.beginUp(deltaY);
         
-    }
+    
 }
--(void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    UITouch *touch=[touches anyObject];
-    
-    
-    CGPoint currentPosition = [touch locationInView:self.superview];
-    
-    CGFloat deltaX = (self.gestureStartPoint.x - currentPosition.x);
-    
-    CGFloat deltaY = self.gestureStartPoint.y - currentPosition.y;
-    NSLog(@"end--%f,%f",deltaX,deltaY);
-   
-        
-        self.endUp(deltaY);
-    
-
-}
+//-(void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+//    UITouch *touch=[touches anyObject];
+//    
+//    
+//    CGPoint currentPosition = [touch locationInView:self.superview];
+//    
+//    CGFloat deltaX = (self.gestureStartPoint.x - currentPosition.x);
+//    
+//    CGFloat deltaY = self.gestureStartPoint.y - currentPosition.y;
+//    NSLog(@"end--%f,%f",deltaX,deltaY);
+//   
+//        
+//        self.endUp(deltaY);
+//    
+//
+//}
 
 @end

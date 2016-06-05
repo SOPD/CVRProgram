@@ -14,7 +14,7 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        
+        self.bounces=NO;
         
         UIView *childVw=[UIView new];
         childVw.frame=CGRectMake(0, [UIScreen mainScreen].bounds.size.height, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height-205);
@@ -33,6 +33,7 @@
         childScro.frame=CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 200);
         [self addSubview:childScro];
         self.childScrollerView=childScro;
+        childScro.bounces=NO;
         
         
         childScro.beginUp=^(CGFloat y){
@@ -43,30 +44,27 @@
                     childVw.frame=CGRectMake(0, 205, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height-205);
                     
                 }];
-            }else if((y<=-50)){
+            }else if(y<=-100){
+                     NSLog(@"zxoule");
                 [UIView animateWithDuration:0.25 animations:^{
                     childVw.frame=CGRectMake(0, [UIScreen mainScreen].bounds.size.height, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height-205);
+               
                 }];
                 
             }
         };
-        childScro.endUp=^(CGFloat y){
-
-            
-            if (y>=50) {
-                
-                [UIView animateWithDuration:0.25 animations:^{
-                     childVw.frame=CGRectMake(0, 205, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height-205);
-                    
-                }];
-            }else if((y<=-50)){
-            [UIView animateWithDuration:0.25 animations:^{
-                   childVw.frame=CGRectMake(0, [UIScreen mainScreen].bounds.size.height, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height-205);
-            }];
-          
-            }
-        };
-        
+//        childScro.endUp=^(CGFloat y){
+//
+//            
+//            
+//            if((y<=-50)){
+//            [UIView animateWithDuration:0.25 animations:^{
+//                   childVw.frame=CGRectMake(0, [UIScreen mainScreen].bounds.size.height, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height-205);
+//            }];
+//          
+//            }
+//        };
+//        
         
         for (int i=0; i<4; i++) {
             
